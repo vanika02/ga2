@@ -1,0 +1,9 @@
+name: Verify Action
+on: [push, workflow_dispatch]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 23f1000071@ds.study.iitm.ac.in
+        run: echo "Action verified for GA2"
